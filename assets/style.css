@@ -33,3 +33,11 @@ body {
 .face {
     border-radius: 50%;
 }
+
+.contacts-wrapper {
+    margin-top: 10%;
+}
+
+.contacts-heading {
+   height: 10vh;
+}
