@@ -6,12 +6,12 @@ body {
     
     background: linear-gradient(90deg, rgba(29,27,27,1) 0%, rgba(87,75,89,1) 30%, rgba(20,18,18,0.9542191876750701) 98%);
     text-transform: uppercase;
-    display: flex;
-    justify-content: space-between;
-    
     font-family: 'Times New Roman', Times, serif;
 }
 
+.nav-item {
+    color: white;
+}
 
 .logo {
     height: 3rem;
