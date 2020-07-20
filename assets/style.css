@@ -1,0 +1,35 @@
+body {
+    background-color: rgb(248, 241, 251);
+}
+
+.navbar {
+    
+    background: linear-gradient(90deg, rgba(29,27,27,1) 0%, rgba(87,75,89,1) 30%, rgba(20,18,18,0.9542191876750701) 98%);
+    text-transform: uppercase;
+    display: flex;
+    justify-content: space-between;
+    
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+.logo {
+    height: 3rem;
+}
+
+.main {
+    margin-top: 20%;
+    
+    border-radius: 5px;
+    background: linear-gradient(90deg, rgba(169, 168, 238, 0.383) 0%, rgba(255, 255, 255, 0.301) 30%, rgba(106, 108, 253, 0.301) 98%);   
+}
+
+.bio {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.face {
+    border-radius: 50%;
+}
