@@ -23,11 +23,19 @@ html, body { overflow-x: hidden; }
 
 /* ////////////about me */
 
+.about-container{
+margin-top: 20%;
+}
+
 .main {
-    margin-top: 20%;
-    
     border-radius: 5px;
     background: linear-gradient(90deg, rgba(169, 168, 238, 0.383) 0%, rgba(255, 255, 255, 0.301) 30%, rgba(106, 108, 253, 0.301) 98%);   
+}
+
+.heading-about {
+    text-shadow: 2px 3px 5px rgba(0, 0, 0, 0.45);
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
 }
 
 .bio {
@@ -40,22 +48,121 @@ html, body { overflow-x: hidden; }
     border-radius: 50%;
 }
 
+.main-text {
+    font-size: x-large;
+    text-shadow: 2px 3px 5px rgba(0, 0, 0, 0.45);
+    font-family: 'Playfair Display', serif;
+    
+}
+@media (max-width: 550px) {
+    
+    
+    .face {
+        height: 250px;
+        width: 260px;
+        margin: 0 auto;
+     
+    }
+    
+    .heading-about {
+        margin: 0 auto;
+    }
+
+    .main-text  { 
+        font-size: large;
+    }
+   
+}
+
 
 /* ////////////contacts */
 
 .contacts-wrapper {
     margin-top: 10%;
+    background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgb(253, 253, 253) 100%);
+  
+}
+
+.contacts-heading,
+.emailLabel,
+.text-label {
+    text-shadow: 2px 3px 5px rgba(0, 0, 0, 0.45);
+    font-family: 'Playfair Display', serif;
+    
 }
 
 .contacts-heading {
    height: 10vh;
+   font-family: 'Playfair Display', serif;
+   font-style: italic;
+    
+  
+}
+
+.github {
+    background-image: url(./img/GitHub-Mark-64px.png);
+    background-size: cover;
+    transform: translateY(-20px);
+    transform: translateX(40px);
+    width: 60px;
+    height: 60px;
+
+}
+
+.linked {
+    background-image: url(./img/LI-Logo.png);
+    background-size: cover;
+    transform: translateY(-60px);
+    width: 167px;
+    height: 40px;
+}
+
+@media (max-width:750px) {
+    .contacts-wrapper {
+        height: auto;
+        margin-top: 0;
+    }
+   .contacts-main {
+       flex-direction: column;
+    }
+
+    .contacts-heading {
+        margin-top: 20;
+    }
+
+   .github {
+       transform: translateX(-15px);
+       transform: translateY(30px);
+       height: 60px;
+   }
+
+   .linked {
+       transform: translateY(0px);
+   }
+
+   .links {
+      height: 40vh;
+      align-items: center;
+      
+   }
+
+   .emailLabel {
+       transform: translateX(15px);
+   }
 }
 
 /* ////////////////My work */
 
+.heading-work {
+    text-shadow: 2px 3px 5px rgba(0, 0, 0, 0.45);
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+    
+}
 
 .cardholder {
     margin-top: 8%;
+  
     
 }
 
@@ -80,10 +187,6 @@ html, body { overflow-x: hidden; }
 .card2 {
   background-image: url(./img/coderefactor.jpg);
 }
-
-
-
-
 
 @media (max-width: 750px) { 
   .cardholder {
